@@ -6,6 +6,8 @@ on:
       - master
   schedule:
     - cron: '19,49 * * * *'
+env:
+  TZ: Asia/Shanghai
 
 jobs:
   build:
